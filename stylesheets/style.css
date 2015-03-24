@@ -1,0 +1,368 @@
+/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 14, ../sass/style.scss */
+.hit-icon-common, html body #how-it-works .detail .three-parts .icon-user, html body #how-it-works .detail .three-parts .icon-pencil, html body #how-it-works .detail .three-parts .icon-group {
+  font-size: 50px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+/* line 20, ../sass/style.scss */
+html {
+  font-size: 62.5%;
+}
+/* line 22, ../sass/style.scss */
+html body {
+  background-color: #F2F1EF;
+  width: 1200px;
+  margin: 0 auto;
+}
+/* line 26, ../sass/style.scss */
+html body h1 {
+  text-align: center;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 0em;
+  color: white;
+  font-size: 3.5em;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+/* line 36, ../sass/style.scss */
+html body h2 {
+  text-align: center;
+  margin: 0.5em auto 1em auto;
+  color: white;
+  font-size: 2em;
+  font-family: sans-serif;
+}
+/* line 44, ../sass/style.scss */
+html body header {
+  overflow: hidden;
+  color: white;
+  margin-top: 2em;
+  width: 1200px;
+  min-height: 500px;
+  margin: auto;
+  background: url("../img/test1.jpg") no-repeat;
+}
+/* line 52, ../sass/style.scss */
+html body header nav {
+  float: right;
+}
+/* line 54, ../sass/style.scss */
+html body header nav div {
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 2px;
+  padding: 4px;
+}
+/* line 59, ../sass/style.scss */
+html body header nav div a {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 10pt;
+}
+/* line 66, ../sass/style.scss */
+html body header nav div:last-child {
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 3px;
+}
+/* line 74, ../sass/style.scss */
+html body header .search {
+  margin-top: 12px;
+  margin-left: 16%;
+}
+/* line 77, ../sass/style.scss */
+html body header .search input {
+  box-sizing: border-box;
+  color: white;
+  width: 730px;
+  height: 35px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  padding-left: 10px;
+  border-radius: 3px 0 0 3px;
+}
+/* line 87, ../sass/style.scss */
+html body header .search button {
+  color: white;
+  width: 75px;
+  height: 35px;
+  margin-left: -2px;
+  background-color: #5CD8A1;
+  border: none;
+  border-radius: 0 3px 3px 0;
+}
+/* line 99, ../sass/style.scss */
+html body #count {
+  font-family: sans-serif;
+  width: 80%;
+  background-color: #F2F1EF;
+  margin: 0 auto;
+  position: relative;
+  top: -60px;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 4px 4px 4px 4px;
+}
+/* line 109, ../sass/style.scss */
+html body #count .part {
+  padding-top: 30px;
+  font-size: 15pt;
+  float: left;
+  width: 25%;
+  border-left: 1px solid gray;
+  box-sizing: border-box;
+}
+/* line 116, ../sass/style.scss */
+html body #count .part:first-child {
+  border: none;
+}
+/* line 119, ../sass/style.scss */
+html body #count .part p {
+  font-size: 10pt;
+  margin: 15px auto 30px auto;
+}
+/* line 125, ../sass/style.scss */
+html body #count:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* line 131, ../sass/style.scss */
+html body #how-it-works {
+  font-family: sans-serif;
+  margin-top: 30px;
+  margin-left: auto;
+}
+/* line 137, ../sass/style.scss */
+html body #how-it-works h3 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 20px;
+}
+/* line 142, ../sass/style.scss */
+html body #how-it-works h3:after {
+  content: "";
+  display: block;
+  width: 25px;
+  margin: 10px auto 0 auto;
+  border: 2px solid gray;
+}
+/* line 151, ../sass/style.scss */
+html body #how-it-works .detail:before {
+  content: "";
+  display: block;
+  width: 65%;
+  border: 1px solid gray;
+  margin: 0px auto;
+  position: relative;
+  top: 18px;
+}
+/* line 160, ../sass/style.scss */
+html body #how-it-works .detail .three-parts {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: sans-serif;
+}
+/* line 166, ../sass/style.scss */
+html body #how-it-works .detail .three-parts .number {
+  background-color: #F2F1EF;
+  position: relative;
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid black;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+/* line 175, ../sass/style.scss */
+html body #how-it-works .detail .three-parts .number p {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 8px auto;
+}
+/* line 182, ../sass/style.scss */
+html body #how-it-works .detail .three-parts .icon-user {
+  color: #EAA861;
+}
+/* line 187, ../sass/style.scss */
+html body #how-it-works .detail .three-parts .icon-pencil {
+  color: #AD9ED1;
+}
+/* line 191, ../sass/style.scss */
+html body #how-it-works .detail .three-parts .icon-group {
+  color: #519AC9;
+}
+/* line 195, ../sass/style.scss */
+html body #how-it-works .detail .three-parts h4 {
+  text-align: center;
+}
+/* line 198, ../sass/style.scss */
+html body #how-it-works .detail .three-parts .introduction {
+  text-align: center;
+}
+/* line 204, ../sass/style.scss */
+html body #why-choose-us {
+  margin-top: 100px;
+  margin-left: auto;
+  font-family: sans-serif;
+}
+/* line 208, ../sass/style.scss */
+html body #why-choose-us h3 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+/* line 212, ../sass/style.scss */
+html body #why-choose-us .six-parts {
+  float: left;
+  width: 40%;
+  margin-left: 8%;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+/* line 218, ../sass/style.scss */
+html body #why-choose-us .six-parts h4 {
+  text-align: center;
+}
+/* line 221, ../sass/style.scss */
+html body #why-choose-us .six-parts .left {
+  float: left;
+  width: 20%;
+}
+/* line 225, ../sass/style.scss */
+html body #why-choose-us .six-parts .right {
+  float: left;
+  width: 80%;
+}
+/* line 229, ../sass/style.scss */
+html body #why-choose-us .six-parts .down {
+  text-align: center;
+}
+/* line 234, ../sass/style.scss */
+html body #interact {
+  width: 80%;
+  margin-top: 200px;
+  margin-left: auto;
+}
+/* line 238, ../sass/style.scss */
+html body #interact .btn {
+  margin-left: 40%;
+  margin-bottom: 50px;
+}
+/* line 242, ../sass/style.scss */
+html body #interact .text {
+  text-align: center;
+  margin-bottom: 50px;
+}
+/* line 246, ../sass/style.scss */
+html body #interact .person {
+  width: 80%;
+  margin-left: 300px;
+}
+/* line 249, ../sass/style.scss */
+html body #interact .person .three-person {
+  float: left;
+  margin-left: 2px;
+}
+/* line 255, ../sass/style.scss */
+html body footer {
+  margin-top: 125px;
+}
+/* line 257, ../sass/style.scss */
+html body footer .last {
+  width: 1200px;
+  height: 150px;
+  background: url("../img/test1.jpg") repeat;
+}
+/* line 261, ../sass/style.scss */
+html body footer .last .search {
+  padding-top: 20px;
+  padding-left: 18%;
+}
+/* line 264, ../sass/style.scss */
+html body footer .last .search input {
+  width: 625px;
+  height: 35px;
+  opacity: 0.2;
+}
+/* line 269, ../sass/style.scss */
+html body footer .last .search button {
+  width: 75px;
+  height: 40px;
+  margin-left: -2px;
+  background-color: aquamarine;
+}
+/* line 278, ../sass/style.scss */
+html body footer nav .flag {
+  float: right;
+}
