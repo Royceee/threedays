@@ -20,7 +20,15 @@ $hiw-blue:#519AC9;
 html {
     font-size:62.5%;
 	body {
-		background-color: #F2F1EF;
+
+		.container {
+			background-color: #F2F1EF;
+		}
+		hr {
+		    margin: 80px auto;
+			width: 100%;
+		}
+		background-color: #445060;
 		width: 1200px;
 		margin: 0 auto;
 		h1 {
@@ -130,10 +138,8 @@ html {
 		}
 		#how-it-works {
 			font-family: sans-serif;
-			margin-top: 30px;
-			
+			margin-top: 10px;
 			margin-left: auto;
-			
 			h3 {
 				text-align: center;
 				margin-bottom: 50px;
@@ -148,6 +154,7 @@ html {
 				}
 			}
 			.detail {
+				overflow: auto;
 				&:before {
 			  		content:"";
 			  		display: block;
@@ -159,10 +166,12 @@ html {
 			  	}
 				.three-parts {
 					float: left;
-				  	margin-left: 10px;
-				  	margin-right: 10px;
-				  	font-family: sans-serif;
-			  		
+					width: 33%;
+				  	font-family: sans-serif;				  	
+			  	    .introduction {
+			  		font-family: sans-serif;
+			  		font-size: 10px;
+			  	}
 				  	.number {
 				  		background-color: $main-bg-color;
 				  		position: relative;
@@ -194,9 +203,15 @@ html {
 				  	}
 				  	h4 {
 				  		text-align: center;
+				  		font-family: sans-serif;
+			  		 	font-size: 18px;
 				  	}
 				  	.introduction {
+				  		margin-top: 10px;
 				  		text-align: center;
+				  		font-family: sans-serif;
+			  			font-size: 12px;
+			  			padding: 0 100px;
 				  	}
 				}
 			}
@@ -208,6 +223,13 @@ html {
 			h3 {
 				text-align: center;
 				margin-bottom: 50px;
+			&:after {
+					content:"";
+					display: block;
+					width:25px;
+					margin: 10px auto 0 auto;
+					border: 2px solid gray;
+				}
 			}
 			.six-parts {
 				float: left;
