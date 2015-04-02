@@ -10,6 +10,10 @@ $main-bg-color: #F2F1EF;
 $hiw-orange:#EAA861;
 $hiw-purple:#AD9ED1;
 $hiw-blue:#519AC9;
+$hiw-lightblue:#4BB5EA;
+$hiw-green:#66BE93;
+$hiw-red:#EB6D7F;
+$hiw-darkred:#ED7F5A;
 
 .hit-icon-common {
 	font-size: 50px;
@@ -186,10 +190,8 @@ html {
 				  			font-weight: 500;
 				  			margin: 8px auto;
 				  		}
-
 				  	}
 				  	.icon-user {
-
 				  		@extend .hit-icon-common;
 				  		color: $hiw-orange;
 				  	}
@@ -231,28 +233,90 @@ html {
 					border: 2px solid gray;
 				}
 			}
-			.six-parts {
+			.one {
 				float: left;
 			  	width: 40%;
-			  	margin-left: 8%;
+			  	margin-left: 6%;
 			  	margin-right: 10px;
 			  	margin-bottom: 30px;
-			  	h4 {
-			  		text-align: center;
+			     }
+			.two {
+				float: left;
+			  	width: 40%;
+			  	margin-left: 6%;
+			  	margin-right: 10px;
+			  	margin-bottom: 30px;
+			  }
+			.three {
+				float: left;
+			  	width: 40%;
+			  	margin-left: 6%;
+			  	margin-right: 10px;
+			  	margin-bottom: 30px;
+			  }
+			h4 {
+			  	text-align: left;
+			  	font-size: 22px;
+			  	margin-bottom: 10px;
 			  	}
-			  	.left {
-			  		float: left;
-			  		width: 20%;
-			  	}
-			  	.right {
-			  		float: left;
-  					width: 80%;
-			  	}
-			  	.down {
-			  		text-align: center;
-			  	}
+			.content {
+				font-size: 16px;
+				color: grey;
 			}
-		}
+			 	.icon-checkmark {
+				  		@extend .hit-icon-common;
+				  		color: $hiw-green;
+				  		font-size: 28px;
+				  		width: 20%;
+  						float: left;
+  						margin-top: 0;
+  						margin-bottom: 40px;
+				  	}
+				.icon-tag {
+				  		@extend .hit-icon-common;
+				  		color: $hiw-lightblue;
+				  		font-size: 28px;
+				  		width: 20%;
+  						float: left;
+  						margin-top: 0;
+  						margin-bottom: 40px;
+				  	}
+				.icon-refresh {
+				  		@extend .hit-icon-common;
+				  		color: $hiw-orange;
+				  		font-size: 28px;
+				  		width: 20%;
+  						float: left;
+  						margin-top: 0;
+  						margin-bottom: 40px;
+					}
+				.icon-user {
+				  		@extend .hit-icon-common;
+				  		color: $hiw-purple;
+				  		font-size: 28px;
+				  		width: 20%;
+  						float: left;
+  						margin-top: 0;
+  						margin-bottom: 40px;
+  					}
+				.icon-clipboard {
+				  		@extend .hit-icon-common;
+				  		color: $hiw-red;
+				  		font-size: 28px;
+				  		width: 20%;
+  						float: left;
+  						margin-top: 0;
+  						margin-bottom: 40px;
+				  	}
+				.icon-thumbsup {
+				  		@extend .hit-icon-common;
+				  		color: $hiw-darkred;
+				  		font-size: 28px;
+				  		width: 20%;
+  						float: left;
+  						margin-top: 0;
+  						margin-bottom: 40px;
+				  	}
 		#interact {
 			width: 80%;
 			margin-top: 200px;
@@ -303,4 +367,5 @@ html {
 			}
 		}
 	}
+}
 }
